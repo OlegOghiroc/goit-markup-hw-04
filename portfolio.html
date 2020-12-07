@@ -29,8 +29,22 @@
         
         <!-- site-contact -->
         <ul class="site-contact">
-          <li class="site-contact_list"><a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li class="site-contact_list"><a class="contact-link" href="tell:+380961111111">+38 096 111 11 11</a></li>
+          <li class="site-contact_list">
+            <a class="contact-link" href="mailto:info@devstudio.com">
+              <svg width="16" height="10" class="site-contact-icons">
+                <use href="./Images/icons/symbol-defs.svg#icon-leter-hover"></use>
+              </svg>
+              info@devstudio.com
+            </a>
+          </li>
+          <li class="site-contact_list contact-icons">
+            <a class="contact-link" href="tell:+380961111111">
+              <svg width="10" height="16" class="site-contact-icons">
+                <use href="./Images/icons/symbol-defs.svg#smartphone"></use>
+              </svg>
+              +38 096 111 11 11
+            </a>
+          </li>
         </ul>
       </div>
     </header>
@@ -49,7 +63,7 @@
           </ul>
           <ul class="options-list">
             <li class="option-list_items">
-              <a href="">
+              <a class="option-list_items-link" href="">
                 <img class="image" src="./Images/laptop-tech-kryak.jpg" alt="laptop tech kryak" />
                 <div class="option-description">
                   <h2 class="option-title title">Технокряк</h2>
@@ -58,7 +72,7 @@
               </a>
             </li>
             <li class="option-list_items">
-              <a href="">
+              <a class="option-list_items-link" href="">
                 <img class="image" src="./Images/poster-orlean.jpg" alt="poster orlean" />
                 <div class="option-description">
                   <h2 class="option-title title">Постер New Orlean vs Golden</h2>
@@ -67,7 +81,7 @@
               </a>
             </li>
             <li class="option-list_items">
-              <a href="">
+              <a class="option-list_items-link" href="">
                 <img class="image" src="./Images/restorant-seafood.jpg" alt="restorant seafood" />
                 <div class="option-description">
                   <h2 class="option-title title">Ресторан Seafood</h2>
@@ -76,7 +90,7 @@
               </a>
             </li>
             <li class="option-list_items">
-              <a href="">
+              <a class="option-list_items-link" href="">
                 <img class="image" src="./Images/headphones-prime.jpg" alt="headphones prime" />
                 <div class="option-description">
                   <h2 class="option-title title">Проект Prime</h2>
@@ -85,7 +99,7 @@
               </a>
             </li>
             <li class="option-list_items">
-              <a href="">
+              <a class="option-list_items-link" href="">
                 <img class="image" src="./Images/boxes.jpg" alt="boxes" />
                 <div class="option-description">
                   <h2 class="option-title title">Проект Boxes</h2>
@@ -94,7 +108,7 @@
               </a>
             </li>
             <li class="option-list_items">
-              <a href="">
+              <a class="option-list_items-link" href="">
                 <img class="image" src="./Images/monitor.jpg" alt="monitor" />
                 <div class="option-description">
                   <h2 class="option-title title">Inspiration has no Borders</h2>
@@ -103,7 +117,7 @@
               </a>
             </li>
             <li class="option-list_items">
-              <a href="">
+              <a class="option-list_items-link" href="">
                 <img class="image" src="./Images/book.jpg" alt="book" />
                 <div class="option-description">
                   <h2 class="option-title title">Издание Limited Edition</h2>
@@ -112,7 +126,7 @@
               </a>
             </li>
             <li class="option-list_items">
-              <a href="">
+              <a class="option-list_items-link" href="">
                 <img class="image" src="./Images/stiker-lab.jpg" alt="stiker lab" />
                 <div class="option-description">
                   <h2 class="option-title title">Проект LAB</h2>
@@ -121,7 +135,7 @@
               </a>
             </li>
             <li class="option-list_items">
-              <a href="">
+              <a class="option-list_items-link" href="">
                 <img class="image" src="./Images/laptop.jpg" alt="laptop" />
                 <div class="option-description">
                   <h2 class="option-title title">Growing Business</h2>
@@ -136,15 +150,52 @@
     <!-- footer -->
     <footer class="footer">
       <div class="footer_conteiner">
-        <a class="logo-link" href="./main.html">
-          <span class="logo">Web<span class="studio-bottom">Studio</span></span></a>
-        <address>
-          <ul>
-            <li class="address">г. Киев, пр-т Леси Украинки, 26</li>
-            <li><a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="tell" href="tell:+380991111111">+38 099 111 11 11</a></li>
+        <div class="address-conteiner">
+          <a class="logo-link" href="./index.html">
+            <span class="logo">Web<span class="studio-bottom">Studio</span></span></a>
+          <address>
+            <ul>
+              <li class="address">г. Киев, пр-т Леси Украинки, 26</li>
+              <li><a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+              <li><a class="tell" href="tell:+380991111111">+38 099 111 11 11</a></li>
+            </ul>
+          </address>
+        </div>
+        <div class="slogan-container">
+          <p class="slogan">
+            присоединяйтесь
+          </p>
+          <ul class="footer-social-list">
+            <li class="footer-social-list-item">
+              <a class="footer-social-list-link" href="">
+                <svg width="20" height="20">
+                  <use href="./Images/icons/symbol-defs.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-list-item">
+              <a class="footer-social-list-link" href="">
+                <svg width="20" height="20">
+                  <use href="./Images/icons/symbol-defs.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-list-item">
+              <a class="footer-social-list-link" href="">
+                <svg width="20" height="20">
+                  <use href="./Images/icons/symbol-defs.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-list-item">
+              <a class="footer-social-list-link" href="">
+                <svg width="20" height="20">
+                  <use href="./Images/icons/symbol-defs.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
